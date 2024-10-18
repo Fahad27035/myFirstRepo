@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        img {
+            border-radius: 10%;
+            height: 250px;
+            width: 100%;
+        }
+
+        .swiper {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <h1>Hi</h1>
+    <h1>Change direct from git</h1>
+
+    <!-- about -->  
+    <div class="container">
+        <div class="row mx-0 px-0 mt-5 mb-5">
+            <div class="col-md-6" data-aos="fade-right" data-aos-duration="3000">
+                <h1 class="display-4">About Us</h1>
+                <p style="word-spacing: 7px;">Welcome to ABC Electronics! We specialize in delivering high-quality
+                    electronic products and innovative solutions tailored to meet your needs. With a commitment to
+                    excellence and customer satisfaction, our team ensures that you receive the latest technology and
+                    reliable support. At ABC Electronics, we are dedicated to enhancing your tech experience and
+                    building lasting relationships with our clients. Thank you for choosing us as your trusted
+                    electronics partner!</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
+                <img src="images/aboutus.jpg" height="300px" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <!-- mission -->
+    <div class="container">
+        <div class="row mx-0 px-0 mt-5 mb-5">
+            <div class="col-md-6" data-aos="zoom-in-right" data-aos-duration="3000">
+                <img src="images/mission.jpg" height="300px" width="100%" alt="">
+            </div>
+            <div class="col-md-6" data-aos="zoom-in-left" data-aos-duration="3000">
+                <h1 class="display-4">Our Mission</h1>
+                <p style="word-spacing: 7px;">At ABC Electronics, our mission is to provide cutting-edge technology and
+                    exceptional service that exceed our customers’ expectations. We strive to deliver high-quality
+                    electronic products and innovative solutions, all while fostering a commitment to integrity and
+                    reliability. Our goal is to enhance your tech experience and build lasting partnerships through
+                    excellence and customer satisfaction.</p>
+            </div>
+        </div>
+    </div>
+    <!-- mission -->
+    <!-- team -->
+    <div class="container">
+        <div class="row mx-0 px-0 mt-5 mb-5">
+            <div class="col-md-6">
+                <h1 class="display-4">Our Team</h1>
+                <p style="word-spacing: 7px;">At ABC Electronics, our team is the heart of our success. Comprising
+                    skilled professionals and technology enthusiasts, we are dedicated to delivering excellence in every
+                    project. Our team’s expertise, creativity, and commitment drive us to innovate and provide top-notch
+                    electronic solutions. Together, we work tirelessly to ensure our customers receive the highest
+                    quality products and exceptional service.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/team.jpg" height="300px" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- team -->
+    <!-- cards -->
+    <div class="row mx-0 px-0 mt-5 mb-5 justify-content-center">
+        <div class="col-md-10">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/car1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/car2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/car3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/car4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" style="width: 100%;">
+                            <img src="images/car5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <!-- <div class="swiper-pagination"></div> -->
+
+                <!-- If we need navigation buttons -->
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+
+                <!-- If we need scrollbar -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- cards -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    AOS.init();
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 20,
+
+        // If we need pagination
+        // pagination: {
+        //     el: '.swiper-pagination',
+        // },
+
+        // Navigation arrows
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+
+        // And if we need scrollbar
+        // scrollbar: {
+        //     el: '.swiper-scrollbar',
+        // },
+    });
+
+</script>
+
+</html>
